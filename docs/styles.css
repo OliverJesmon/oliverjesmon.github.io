@@ -131,11 +131,13 @@ header {
 
 .about-text {
     width: 50%;
+    margin-top: 20px;
 }
 
 
 .skills {
     width: 40%;
+    margin-top: 20px;
 }
 
 
