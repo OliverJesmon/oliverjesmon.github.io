@@ -335,9 +335,7 @@ footer .social-icons a:hover {
     }
 
 
-    .about-text, .skills {
-        width: 100%;
-    }
+    
 
 
     
@@ -364,19 +362,7 @@ footer .social-icons a:hover {
     }
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    scroll-behavior: smooth;
-}
 
-
-header {
-    position: sticky;
-    top: 0;
-    background-color: #333;
-    padding: 15px;
-    z-index: 1000;
-}
 
 
 .navbar ul {
@@ -432,35 +418,6 @@ header {
 }
 
 
-.about-text {
-    width: 50%;
-}
-
-
-.skills {
-    width: 40%;
-}
-
-
-.skills ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.skills li {
-    margin: 10px;
-    font-size: 1.5rem;
-}
-
-
-/* Portfolio Section */
-.portfolio {
-    padding: 100px 20px;
-    background-color: #fff;
-}
-
 
 .portfolio h2 {
     font-size: 2.5rem;
@@ -504,30 +461,6 @@ header {
 
 
 
-/* Contact Section */
-.contact {
-    padding: 100px 20px;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-
-.contact h2 {
-    font-size: 2.5rem;
-    margin-bottom: 50px;
-}
-
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
 
 label {
