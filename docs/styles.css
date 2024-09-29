@@ -338,7 +338,7 @@ footer .social-icons a:hover {
     
 
 
-    
+/*    
 
 
     .grid {
@@ -390,7 +390,6 @@ footer .social-icons a:hover {
 }
 
 
-/* Scroll Indicator */
 .scroll-indicator {
     position: absolute;
     bottom: 30px;
@@ -408,7 +407,7 @@ footer .social-icons a:hover {
 }
 
 
-/* About Section */
+
 .about {
     padding: 100px 20px;
     background-color: #000000;
@@ -503,7 +502,6 @@ button:hover {
 }
 
 
-/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -537,7 +535,6 @@ footer .social-icons a:hover {
 }
 
 
-/* Animations */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -562,7 +559,6 @@ footer .social-icons a:hover {
 }
 
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .about {
         flex-direction: column;
@@ -597,3 +593,4 @@ footer .social-icons a:hover {
         font-size: 1rem;
     }
 }
+*/
