@@ -48,8 +48,19 @@ header {
 }
 
 
-.navbar ul li a:hover {
-    color: #ff6347;
+.navbutton{
+    padding: 0px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.navbutton :hover {
+    background-color: #fff;
+    color:#000;
 }
 
 
@@ -106,7 +117,7 @@ header {
 /* Scroll Indicator */
 .scroll-indicator {
     position: absolute;
-    bottom: 30px;
+    bottom: -80px;
 }
 
 
@@ -193,8 +204,6 @@ header {
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s;
 }
 
 
