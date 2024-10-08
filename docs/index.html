@@ -8,6 +8,7 @@
     <!-- for icons -->
     <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
 </head>
 <body>
     <!-- Sticky Navbar Section -->
@@ -101,7 +102,7 @@
     <!-- Contact Section with Animations -->
     <section id="contact" class="contact">
         <h2>Get In Touch</h2>
-        <form method="POST" action="https://formpost.app/oliverjesmon@outlook.com">
+        <form id="contactForm" method="POST" action="https://formpost.app/oliverjesmon@outlook.com">
       
             <label for="name">Name:</label>
             <input type="text" id="name" name="Name:" required>
@@ -119,7 +120,7 @@
             <textarea id="message" name="Message:" required></textarea>
 
 
-            <button type="submit">Send Message</button>
+            <button type="submit" onClick="clearForm()">Send Message</button>
         </form>
     </section>
 
